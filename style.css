@@ -113,6 +113,7 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 5
 }
 
 #works ul li {
@@ -129,6 +130,21 @@ li {
   transform: scale(1.2, 1.2);
   opacity: 0.7;
 }
+
+/*news*/
+  #news dl {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #c8c8c8;
+  }
+  
+  #news dt {
+    width: 20%;
+  }
+  
+  #news dd {
+    width: 80%;
+  }
 
 /*sp*/
 @media screen and (max-width: 600px) {
@@ -157,7 +173,7 @@ li {
   #works ul {
     flex-direction: column;
   }
-  
+
   #works ul li {
     width: 100%;
   }
